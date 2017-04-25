@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <link href="css/style.css" type="text/css"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <nav class="side" class="sidenav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav><!--end of sideNav-->
+
+  <div id="wrapper">
+    <h1>C O N T A C T</h1><!--end of h1-->
+
+    <div id="contact-form">
+
+      <form action="mailto:briolate@gmail.com" method="post">
+        <fieldset>
+
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" id="name" /><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" name="email" id="email" /><br>
+
+        <label for="message">Comment:</label><br>
+        <textarea name="message" id="message"></textarea><br>
+
+        <button onclick="changeInput()">Submit</button>
+
+        </fieldset>
+      </form>
+    </div><!-- end of contact-form -->
+
+    <div id="social">
+      <a href="https://www.facebook.com/profile.php?id=2362705"
+      target="_blank">
+        <img src="images/facebook.png" /></a>
+      <a href="https://www.linkedin.com/in/evan-b-0a00a234/"
+      target="_blank">
+        <img src="images/linkedin.png" /></a>
+      <a href="https://www.instagram.com/evanarthurb/?hl=en"
+      target="_blank">
+        <img src="images/IG.png" /></a>
+      <a href="https://github.com/briolate" target="_blank">
+        <img src="images/github.png" target="_blank" /></a>
+    </div><!-- end of social -->
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="js/changeInput.js" type="text/javascript"></script>
+  <script src="js/newNav.js" type="text/javascript"></script>
+</body>
+</html>
